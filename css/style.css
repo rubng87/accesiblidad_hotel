@@ -101,7 +101,9 @@ nav {
 
 /* =============================================  */
 
-
+.lista-centro {
+    text-align: center;
+}
 
 .texto-centro {
     text-align: center;
