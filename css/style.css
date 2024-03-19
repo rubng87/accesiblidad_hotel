@@ -180,5 +180,45 @@ footer {
     width: 50%;
 } */
 
+.final {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(12, 110, 48);
+    padding: 2rem 5%;
+    color: white
+  }
+  
+  #nosotros {
+    font-size: 1.2rem;
+  
+    a {
+      font-size: inherit;
+      text-decoration: none;
+      color:white;
+    }
+  }
+  
+  #app {
+    font-size: 1.2rem;
+    text-align: center;
+    img {
+      width: 40%;
+    }
+  }
+  
+  #siguenos {
+    font-size: 1.2rem;
+    text-align: center;
+  
+  
+    div {
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem;
+    }
+    img {
+      width: 30%;
+    }
+  }
 
 
