@@ -49,6 +49,7 @@ h1 {
     top: 0;
     color: white;
     right: 50px;
+    padding: 2%;
 }
 
 
@@ -113,6 +114,7 @@ nav {
 }
 
 img {
+    padding: 2%;
     width: 100%;
 }
 
@@ -122,18 +124,25 @@ h2 {
     text-align: center;
     font-size: 2.5rem;
     position: relative;
-    top: 60px;
-    margin-bottom: 80px;
+    padding: 2%;
 }
 
 h3 {
     
+    text-align: center;
+    font-size: 2.5rem;
+    /* position: relative; */
+    padding: 2%;
+}
+p {
+    padding: 2%;
+    font-size: 1.5rem;
 }
 
 /* footer */
 
 footer {
-    background-color:  rgb(34, 209, 98);
+    background-color:   rgb(12, 110, 48);
     position: relative;
     color: white;
     bottom: 0;
