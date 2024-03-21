@@ -18,16 +18,11 @@
     margin: 0 auto;
 }
 
-.green {
-    background-color: rgb(104, 230, 104);
-}
 
 /* =============================================  */
 /* header */
 
-h1 {
-    display: none;
-}
+
 
 header div {
     
@@ -45,13 +40,10 @@ header > img {
 }
 
 h1 {
-    /* font-family: "Dancing Script", cursive; */
-    font-size: 6vw;
-    position: absolute;
-    top: 0;
-    color: white;
-    right: 50px;
-    padding: 2%;
+    font-size: 3rem;
+    text-align: center;
+    
+    
 }
 
 
@@ -60,7 +52,7 @@ h1 {
 
 
 nav {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     background-color: rgb(34, 209, 98);
     z-index: 2;
@@ -120,7 +112,7 @@ main img {
     width: 100%;
 }
 
-main section article p  {
+main section div p  {
     padding-bottom: 5%;
     width: 100%;
 }

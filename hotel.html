@@ -25,13 +25,13 @@
         </ul>
     </nav>
 
-    <header>
+    <header class="width-content">
         <a tabindex="2" id="skip-link" href="#habitaciones">Ir al contenido</a>
         <h1 tabindex="1">Hotel Rural Mas del Avets</h1>
                 <img src="/img/hotel.jpg" alt="Imagen de vista montañas,rocosas y arboles" tabindex="0">
     </header>
     
-    <main class="green">
+    <main>
         <section class="width-content">
             <article>
                 
@@ -39,9 +39,9 @@
 
         </section>
         <section class="width-content">
-            <article>
-                <h3>Nuestra habitaciones</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores qui eos optio mollitia harum nulla
+            <div id="habitaciones">
+                <h3 tabindex="0">Nuestras habitaciones</h3>
+                <p tabindex="0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores qui eos optio mollitia harum nulla
                     tempora, magni iusto nisi eaque repellat provident ipsum labore! Corporis adipisci quis magni
                     praesentium deserunt itaque nihil, mollitia velit ullam obcaecati porro similique neque reiciendis
                     placeat, nostrum repellendus quas ad facilis dolores beatae error, ex veniam veritatis commodi.
@@ -49,20 +49,21 @@
                     possimus quae fugit. Repellendus aspernatur asperiores sed ipsum inventore perspiciatis magnam
                     molestiae tempore mollitia molestias culpa eveniet, eos alias? Molestiae ad dicta, accusantium
                     minima quidem animi, recusandae dolores dignissimos sit, quisquam unde eius.</p>
-            </article>
+                    <p class="volver-inicio"><a href="#inicio">Volver al inicio</a></p>
+                </div>
 
-            <article>
-                <h3>El restaurante</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officiis id laboriosam labore
+            <div id="restaurante">
+                <h3 tabindex="0">El restaurante</h3>
+                <p tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officiis id laboriosam labore
                     obcaecati! Eligendi, eaque. Voluptatum veniam ipsam perspiciatis aspernatur delectus ex natus
                     asperiores ducimus, amet tempore. Reiciendis, id officiis fugiat ipsum accusantium sapiente maxime
                     voluptatibus, eos dolorum quae distinctio nemo beatae ipsam reprehenderit sunt harum, quam unde
                     illum incidunt mollitia odit velit placeat eum. Cumque voluptatum sed ut.</p>
-            </article>
+            </div>
 
-            <article>
-                <h3>Servicios</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquam quo similique numquam nemo
+            <div id="servicios">
+                <h3 tabindex="0">Servicios</h3>
+                <p tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquam quo similique numquam nemo
                     earum libero adipisci ipsam praesentium enim. Vitae esse porro nesciunt architecto voluptatum libero
                     suscipit optio unde facilis numquam ullam odit, laudantium nemo nobis nam inventore ut iure non
                     ipsum reiciendis quod? Illo, sit, cum eaque vero dolorum sed magni sint iure in quae doloribus.
@@ -76,7 +77,7 @@
                     soluta a quisquam quasi harum odit aliquid mollitia? Amet consectetur quasi, optio odio aliquid
                     harum. Cumque, ipsa enim dignissimos voluptatem suscipit unde inventore harum quae repudiandae
                     recusandae amet nostrum? Pariatur impedit quasi ad?</p>
-            </article>
+            </div>
         </section>
     </main>
 
@@ -85,17 +86,17 @@
             <div id="nosotros">
                 SOBRE NOSOTROS
                 <div>
-                    <p>¿Quiénes somos?</p>
-                    <p>Contacto</p>
-                    <p>Blog Hoteles Rurales</p>
-                    <p>Condiciones legales</p>
-                    <p>Política de cookies</p>
+                    <p><a href="#">¿Quiénes somos?</a></p>
+                    <p><a href="#">Contacto</a></p>
+                    <p><a href="#">Blog Hoteles Rurales</a></p>
+                    <p><a href="#">Condiciones legales</a></p>
+                    <p><a href="#">Política de cookies</a></p>
                 </div>
             </div>
             <div id="app">
                 DESCARGA LA APP
                 <div>
-                    <p><img src="img/google-play2.png" alt=""></p>
+                    <p><a href="#" aria-label="Enlace a la Google Store"><img src="img/google-play2.png" alt=""></a></p>
                     <p><img src="img/apple-store2.png" alt=""></p>
                 </div>
             </div>
