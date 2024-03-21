@@ -18,7 +18,9 @@
     margin: 0 auto;
 }
 
-
+.green {
+    background-color: rgb(104, 230, 104);
+}
 
 /* =============================================  */
 /* header */
@@ -113,11 +115,15 @@ nav {
     padding-bottom: 50px;
 }
 
-img {
-    /* padding: 2%; */
+main img {
+    padding-bottom: 5%;
     width: 100%;
 }
 
+main section article p  {
+    padding-bottom: 5%;
+    width: 100%;
+}
 
 h2 {
     /* font-family: Amita, serif; */
