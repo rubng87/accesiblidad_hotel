@@ -15,72 +15,74 @@
 </head>
 
 <body>
-    <header>
-        <img src="/img/Header/hotel_estrecha.avif" alt="Imagen de nuestro hotel">
-        <h1>Hotel Rural Mas del Avets</h1>
-    </header>
-    <nav>
+
+    <nav id="inicio" role="navigation">
         <ul class="nav-ul width-content">
             <li class="li"><a href="index.html">Inicio</a></li>
-            <li class="texto-pestaña-centro"><a href="hotel.html">El Hotel</a></li>
-            <li class="texto-pestaña-centro"><a href="recomendaciones.html">Recomendaciones</a></li>
-            <li class="texto-pestaña-centro"><a href="contacto.html">Contacto</a></li>
+            <li><a href="hotel.html">El Hotel</a></li>
+            <li><a href="recomendaciones.html">Recomendaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
 
         </ul>
     </nav>
-    <main class="green">
-        <section class="width-content">
-            <article>
-                <h2>Recomendaciones en la montaña</h2>
-                <img src="/img/aconit.jpg" alt="Imagen aconit lila">
-            </article>
-        </section>
 
-        <section class="width-content">
-            <p>Hay una serie de recomendaciones que debemos tener muy en cuenta, porque hay <strong>cosas se pueden
-                    hacer</strong> y <strong>cosas que no se deben hacer</strong>, ya que perjudican el medio natural e
-                incluso pueden poner en riesgo nuestras vidas y las que nos rodean</p>
+    <header class="width-content">
+        <a tabindex="2" id="skip-link" href="#recomendaciones">Ir al contenido</a>
+        <h1 tabindex="1">Recomendaciones en la montaña</h1>
+        <img src="/img/aconit.jpg" alt="Imagen aconit lila" tabindex="0">
+    </header>
+
+    <main class="green">
+        <section id="recomendaciones" class="width-content">
+            <p tabindex="0">Hay una serie de recomendaciones que debemos tener muy en cuenta, porque hay <strong>cosas que
+                    se pueden hacer</strong> y <strong>cosas que no se deben hacer</strong>, ya que perjudican el medio natural e
+                incluso pueden poner en riesgo nuestras vidas y las que nos rodean.</p>
 
             <section class="lista-centro">
-                <h3>Se recomienda</h3>
+                <h3 tabindex="0">Se recomienda</h3>
 
-                <p class>Repetar la flora y la fauna.</p>
-                <p class>Mantener limpio el entorno.</p>
-                <p class>Ir concalzado y ropa adecuados.</p>
+                <p tabindex="0">Respetar la flora y la fauna.</p>
+                <p tabindex="0">Mantener limpio el entorno.</p>
+                <p tabindex="0">Ir con calzado y ropa adecuados.</p>
 
 
-                <h3>No se recomienda</h3>
+                <h3 tabindex="0">No se recomienda</h3>
 
-                <p class>Hacer hogueras.</p>
-                <p class>Recoger y consumir plantas y hongos de la naturaleza.</p>
+                <p tabindex="0">Hacer hogueras.</p>
+                <p tabindex="0">Recoger y consumir plantas y hongos de la naturaleza.</p>
+                <p class="volver-inicio"><a href="#inicio">Volver al inicio</a></p>
             </section>
         </section>
     </main>
+
     <footer>
         <div class="final">
             <div id="nosotros">
                 SOBRE NOSOTROS
                 <div>
-                    <p>¿Quiénes somos?</p>
-                    <p>Contacto</p>
-                    <p>Blog Hoteles Rurales</p>
-                    <p>Condiciones legales</p>
-                    <p>Política de cookies</p>
+                    <p><a href="#">¿Quiénes somos?</a></p>
+                    <p><a href="#">Contacto</a></p>
+                    <p><a href="#">Blog Hoteles Rurales</a></p>
+                    <p><a href="#">Condiciones legales</a></p>
+                    <p><a href="#">Política de cookies</a></p>
                 </div>
             </div>
             <div id="app">
                 DESCARGA LA APP
                 <div>
-                    <p><img src="img/google-play2.png" alt=""></p>
-                    <p><img src="img/apple-store2.png" alt=""></p>
+                    <p><a href="#" aria-label="Enlace a la Google Store"><img src="img/google-play2.png" alt=""></a></p>
+                    <p><a href="#" aria-label="Enlace a la Apple Store"><img src="img/apple-store2.png" alt=""></a></p>
                 </div>
             </div>
             <div id="siguenos">
                 SÍGUENOS
                 <div>
-                    <p><img src="img/png-transparent-facebook.png" alt=""></p>
-                    <p><img src="img/png-transparent-twitter.png" alt=""></p>
-                    <p><img src="img/png-transparent-instagram.png" alt=""></p>
+                    <p><a href="https://facebook.com" aria-label="Enlace a Facebook"><img
+                                src="img/png-transparent-facebook.png" alt=""></a></p>
+                    <p><a href="https://Twitter.com" aria-label="Enlace a Twitter"><img
+                                src="img/png-transparent-twitter.png" alt=""></a></p>
+                    <p><a href="https://instagram.com" aria-label="Enlace a Instagram"><img
+                                src="img/png-transparent-instagram.png" alt=""></a></p>
                 </div>
             </div>
         </div>
